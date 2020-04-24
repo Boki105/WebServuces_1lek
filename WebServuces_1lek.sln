@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServuces_1lek", "WebServuces_1lek\WebServuces_1lek.csproj", "{945C5408-5DEF-43F9-89FA-700BEF77DDBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorClient", "CalculatorClient\CalculatorClient.csproj", "{171FE650-FEB4-4BE9-B2DF-B2A5114DC77F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{945C5408-5DEF-43F9-89FA-700BEF77DDBD} = {945C5408-5DEF-43F9-89FA-700BEF77DDBD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{945C5408-5DEF-43F9-89FA-700BEF77DDBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{945C5408-5DEF-43F9-89FA-700BEF77DDBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{945C5408-5DEF-43F9-89FA-700BEF77DDBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{945C5408-5DEF-43F9-89FA-700BEF77DDBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{171FE650-FEB4-4BE9-B2DF-B2A5114DC77F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171FE650-FEB4-4BE9-B2DF-B2A5114DC77F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171FE650-FEB4-4BE9-B2DF-B2A5114DC77F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171FE650-FEB4-4BE9-B2DF-B2A5114DC77F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {867503D9-3863-44D4-8E97-4E0A09443B8B}
+	EndGlobalSection
+EndGlobal
